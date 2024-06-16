@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="weather.css">
+  </head>
+  <body>
+    <div class="card">
+      <div class="header">
+        <input class="search-bar js-search-input" placeholder="type your city">
+        <button class="search-button js-search-button"><img src="images/search.png " class="search-button-image"></button>
+      </div>
+      <div>
+        <img class="js-weather-icon " src="images/clouds.png">
+      </div>
+      <div class="temperature js-temperature">
+        --
+      </div>
+      <div class="city js-city">
+        --
+      </div>
+      <div class="footer">
+        <div class="sub-footer">
+          <div><img src="images/humidity.png"></div>
+          <div>
+            <div class="humidity-value js-humidity-value">--</div>
+            <div class="humidity-text">Humidity</div>
+          </div>
+        </div>
+        <div class="sub-footer">
+          <div><img src="images/wind.png"></div>
+          <div>
+            <div class="wind-speed-value js-wind-speed-value">--</div>
+            <div class="wind-speed-text">Wind speed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="weather.js"></script>
+  </body>
+</html>
